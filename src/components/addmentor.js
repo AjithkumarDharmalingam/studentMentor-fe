@@ -9,7 +9,7 @@ function Addmentor() {
     let [mName,setmName]=useState("");
     let [sNames,setsNames]=useState([]);
     let [res,setRes]=useState("");
-    let [options,setOptions]=useState([]);
+    let [options]=useState([]);
     useEffect(()=>{
         getAllStudents()
     },[])
@@ -47,6 +47,7 @@ function Addmentor() {
         
         
     }
+    
   let UpdateSelected = (e)=>{
       setsNames(Array.isArray(e)?e.map(x=>x.label):[]);// to handle selected students in multi dropdown
   }

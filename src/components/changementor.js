@@ -9,7 +9,7 @@ function Changementor() {
   let [mName,setmName]=useState("");
   let [sName,setsName]=useState("");
   let [res,setRes]=useState("");
-  let [options,setOptions]=useState([]);
+  let [options]=useState([]);
   let [user,setUser]=useState([]);
   useEffect(()=>{
       getAllMentors();//get all mentor details

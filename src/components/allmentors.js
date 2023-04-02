@@ -38,17 +38,7 @@ function Allmentors() {
                             return <>
                                 <tr>
                                     <td>{e.mentorName}</td>
-                                    <td>
-                                        {/* <table>
-                                            <tbody>
-                                                {
-                                                    e.mentorStudents.map((f)=>{
-                                                        return<tr>{f}</tr>
-                                                    })
-                                                }
-                                            </tbody>
-                                            {console.log(e.mentorStudents)}
-                                        </table> */}
+                                    <td>  
                                         {`${e.mentorStudents},`}
                                     </td>
                                 </tr>
