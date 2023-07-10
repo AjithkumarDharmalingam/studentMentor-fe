@@ -40,7 +40,7 @@ function Allstudents() {
                             </>
                         })
                     }
-                </tbody>
+                </tbody> 
             </table>
         </div>
     </>

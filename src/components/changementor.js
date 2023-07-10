@@ -31,7 +31,7 @@ const getAllStudents = async()=>{//get all students
     .then((response)=>{
       console.log(response);
         response.data.user.map((e)=>{
-            if(!e.studentMentor == ""){
+            if(e.studentMentor !== ""){
                 options.push({//initialise options for multi select dropdown
                             value:options.length+1,
                             label:e.studentName
